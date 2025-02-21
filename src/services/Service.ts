@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Criação da instância do axios, que será usada para fazer as requisições
 const api = axios.create({
-  baseURL: "https://blogpessoal-xuqz.onrender.com", // URL base da API
+  baseURL: import.meta.env.VITE_API_URL, // URL base da API
 });
 
 // Tipos para os parâmetros das funções, para garantir que os dados sejam passados corretamente
