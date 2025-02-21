@@ -18,8 +18,7 @@ function CardPostagem({ postagem }: CardPostagensProps) {
         {/* Cabeçalho com informações do usuário */}
         <div className="flex w-full bg-indigo-400 py-2 px-4 items-center gap-4">
           <img
-            //src={postagem.usuario?.foto}
-            src="https://static.thenounproject.com/png/43761-200.png"
+            src={postagem.usuario?.foto}
             className="h-12 rounded-full"
             alt={postagem.usuario?.nome}
           />
