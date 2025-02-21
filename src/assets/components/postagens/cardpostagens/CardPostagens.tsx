@@ -18,7 +18,8 @@ function CardPostagem({ postagem }: CardPostagensProps) {
         {/* Cabeçalho com informações do usuário */}
         <div className="flex w-full bg-indigo-400 py-2 px-4 items-center gap-4">
           <img
-            src={postagem.usuario?.foto}
+            //src={postagem.usuario?.foto}
+            src="src\assets\components\postagens\cardpostagens\admin_icon.webp"
             className="h-12 rounded-full"
             alt={postagem.usuario?.nome}
           />
