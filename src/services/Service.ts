@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unsafe-function-type */
+// aqui conecta com o ''backend''
 import axios from "axios";
 
 // Criação da instância do axios, que será usada para fazer as requisições
