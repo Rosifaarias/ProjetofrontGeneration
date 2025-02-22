@@ -13,7 +13,7 @@ Este é o repositório do frontend do meu blog pessoal, onde compartilho minhas 
 ## Deploy
 
 - O frontend está hospedado na **Vercel**: [Acesse aqui](https://projetofront-generation.vercel.app)
-- O backend está hospedado no **Render**: [API aqui]([https://seu-backend.render.com](https://blogpessoal-xuqz.onrender.com/))
+- O backend está hospedado no **Render**: [API aqui](https://seu-backend.render.com](https://blogpessoal-xuqz.onrender.com/)
 
 ## Como Rodar o Projeto
 
