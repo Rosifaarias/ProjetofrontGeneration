@@ -13,7 +13,7 @@ Este é o repositório do frontend do meu blog pessoal, onde compartilho minhas 
 ## Deploy
 
 - O frontend está hospedado na **Vercel**: [Acesse aqui](https://projetofront-generation.vercel.app)
-- O backend está hospedado no **Render**: [API aqui](https://blogpessoal-xuqz.onrender.com/)
+- O backend está hospedado no **Render**
 
 ## Como Rodar o Projeto
 
@@ -92,12 +92,12 @@ Fique à vontade para sugerir melhorias! Caso queira contribuir:
 ## Contato
 
 Se quiser acompanhar meu progresso ou trocar ideias, me encontre em:
-- **Email**: seuemail@email.com
+- **Email**: rosilene.farias00@gmail.com
 - **LinkedIn**: [seu-linkedin](https://www.linkedin.com/in/rosilene-fariasdomingues/)
 
 
 ---
-Feito com 💙 por [Seu Nome]
+Feito com 💙 por [Rosilene Farias Domingues]
 
 
 
