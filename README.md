@@ -1,50 +1,103 @@
-# React + TypeScript + Vite
+# Meu Blog Pessoal - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o repositório do frontend do meu blog pessoal, onde compartilho minhas postagens, reflexões e aprendizados.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** com **TypeScript**
+- **Vite** para build e desenvolvimento
+- **Tailwind CSS** para estilização
+- **React Router** para navegação
+- **Yarn** para gerenciamento de pacotes
 
-## Expanding the ESLint configuration
+## Deploy
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- O frontend está hospedado na **Vercel**: [Acesse aqui](https://projetofront-generation.vercel.app)
+- O backend está hospedado no **Render**
 
-- Configure the top-level `parserOptions` property like this:
+## Como Rodar o Projeto
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Clone este repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+
+2. Acesse o diretório do projeto:
+   ```sh
+   cd meu-blog-frontend
+   ```
+
+3. Instale as dependências:
+   ```sh
+   yarn install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+   ```sh
+   yarn dev
+   ```
+
+O projeto estará disponível em `http://localhost:5173/` (ou outra porta definida pelo Vite).
+
+## Estrutura do Projeto
+
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+meu-blog-frontend/
+├── public/              # Arquivos estáticos
+├── src/
+│   ├── assets/         # Recursos estáticos (imagens, fontes, etc.)
+│   ├── components/     # Componentes reutilizáveis
+│   ├── context/        # Context API
+│   ├── models/        # Modelos de dados
+│   ├── pages/         # Páginas do blog
+│   ├── services/      # Integração com API
+│   ├── utils/         # Funções auxiliares
+│   ├── App.tsx        # Componente principal
+│   ├── App.css        # Estilos globais
+│   ├── index.css      # Estilos adicionais
+│   ├── main.tsx       # Ponto de entrada do app
+│   ├── vite-env.d.ts  # Configuração do Vite
+├── .gitignore
+├── README.md           # Documentação
+├── eslint.config.js    # Configuração do ESLint
+├── index.html          # HTML base
+├── package.json        # Dependências e scripts
+└── tsconfig.json       # Configuração do TypeScriptte
+└── README.md            # Documentação
 ```
+
+## Funcionalidades
+
+-📝 CRUD de postagens: Criar, ler, atualizar e deletar postagens.
+
+-🎨 Temas personalizados: O tema de cada postagem está relacionado ao seu conteúdo.
+
+-🔍 Busca: Encontre rapidamente postagens pelo título ou conteúdo.
+
+-📚 Lista de postagens: Todas as postagens criadas pelos usuários são exibidas.
+
+-📝 Compartilhamento de ideias: Permite que qualquer pessoa publique seu conteúdo.
+
+## Contribuição
+
+Fique à vontade para sugerir melhorias! Caso queira contribuir:
+
+1. Fork este repositório.
+2. Crie uma branch com sua feature ou correção (`git checkout -b minha-feature`).
+3. Commit suas alterações (`git commit -m 'Minha melhoria'`).
+4. Envie para o repositório remoto (`git push origin minha-feature`).
+5. Abra um Pull Request.
+
+## Contato
+
+Se quiser acompanhar meu progresso ou trocar ideias, me encontre em:
+- **Email**: rosilene.farias00@gmail.com
+- **LinkedIn**: (https://www.linkedin.com/in/rosilene-fariasdomingues/)
+
+
+---
+Feito com 💙 por [Rosilene Farias Domingues]
+
+
+
