@@ -93,7 +93,7 @@ Fique à vontade para sugerir melhorias! Caso queira contribuir:
 
 Se quiser acompanhar meu progresso ou trocar ideias, me encontre em:
 - **Email**: rosilene.farias00@gmail.com
-- **LinkedIn**: [seu-linkedin](https://www.linkedin.com/in/rosilene-fariasdomingues/)
+- **LinkedIn**: (https://www.linkedin.com/in/rosilene-fariasdomingues/)
 
 
 ---
